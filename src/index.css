@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased
+}
+
+:root {
+  font-size: 62.5%;
+
+  --dark-blue: #003459;
+  --dark-blue-800: #002A48;
+  --dark-blue-600: #00528C;
+  --dark-blue-400: #0078CD;
+
+  --mon-yellow: #F7DBA7;
+  --mon-yellow-800: #EEC77E;
+  --mon-yellow-600: #F1D092;
+  --mon-yellow-400: #FCEED5;
+
+  --neutral-1000: #00171F;
+  --neutral-800: #242B33;
+  --neutral-600: #667479;
+  --neutral-400: #99A2A5;
+  --neutral-200: #CCD1D2;
+  --neutral-100: #EBEEEF;
+  --neutral: #FDFDFD;
+
+  --orange: #FF921C;
+  --red: #FF564F;
+  --green: #34C759;
+  --blue: #00A7E7;
+}
+
+body, button, input, textarea {
+  font-family: 'Roboto', sans-serif;
+}
