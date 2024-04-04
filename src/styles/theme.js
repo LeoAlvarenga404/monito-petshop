@@ -22,6 +22,7 @@ export default {
     RED: '#FF564F',
     GREEN: '#34C759',
     BLUE: '#00A7E7',
+    TRANSPARENT: 'transparent',
   },
   
   BREAKPOINTS: {

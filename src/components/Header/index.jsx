@@ -1,12 +1,14 @@
-import { Logo } from "../../assets/logo";
+
+import { LogoMonito } from "../logo";
 import { Button } from "../Button";
 import { HeaderContainer } from "./style";
-import { MagnifyingGlass } from '@phosphor-icons/react'
+import { MagnifyingGlass, List } from '@phosphor-icons/react'
 
 export function Header() {
   return (
     <HeaderContainer>
-      <Logo/>
+      <List size={32} className="menubar"/>
+      <LogoMonito/>
       <nav>
         <ul>
           <li><a href="">Home</a></li>

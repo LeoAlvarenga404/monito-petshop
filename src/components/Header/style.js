@@ -6,6 +6,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+
   nav {
     ul {
       display: flex;
@@ -19,7 +20,9 @@ export const HeaderContainer = styled.header`
       }
     }
   }
-
+  .menubar {
+    display: none;
+  }
   .input-wrapper {
     width: 100%;
     max-width: 50rem;
@@ -43,5 +46,20 @@ export const HeaderContainer = styled.header`
       font-size: 1.6rem;
     }
   }
+  @media (max-width: 768px) {
+    .menubar {
+      display: block;
+      position: absolute;
+      left: 2rem;
+      top: 2rem;
+    }
+    nav, .input-wrapper, button {
+      display: none;
+    }
+    display: flex;
+    justify-content: center;
+  }
+
+  
   
 `
