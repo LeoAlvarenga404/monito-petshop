@@ -1,0 +1,33 @@
+export default {
+  COLORS: {
+    DARK_BLUE: '#003459',
+    DARK_BLUE_800: '#002A48',
+    DARK_BLUE_600: '#00528C',
+    DARK_BLUE_400: '#0078CD',
+
+    MON_YELLOW: '#F7DBA7',
+    MON_YELLOW_800: '#EEC77E',
+    MON_YELLOW_600: '#F1D092',
+    MON_YELLOW_400: '#FCEED5',
+
+    NEUTRAL_1000: '#00171F',
+    NEUTRAL_800: '#242B33',
+    NEUTRAL_600: '#667479',
+    NEUTRAL_400: '#99A2A5',
+    NEUTRAL_200: '#CCD1D2',
+    NEUTRAL_100: '#EBEEEF',
+    NEUTRAL: '#FDFDFD',
+
+    ORANGE: '#FF921C',
+    RED: '#FF564F',
+    GREEN: '#34C759',
+    BLUE: '#00A7E7',
+  },
+  
+  BREAKPOINTS: {
+    SMALL: '576px',
+    MEDIUM: '768px',
+    LARGE: '992px',
+    EXTRA_LARGE: '1200px',
+  },
+}
