@@ -39,7 +39,7 @@ export const HeaderContainer = styled.header`
       padding-left: 5rem;
       outline: none;
       border-radius: 2.7rem;
-      border: 1px solid black;
+      border: none;
       display: flex;
       align-items: center;
       font-weight: 500;
@@ -50,8 +50,8 @@ export const HeaderContainer = styled.header`
     .menubar {
       display: block;
       position: absolute;
-      left: 2rem;
-      top: 2rem;
+      left: 3rem;
+      top: 3rem;
     }
     nav, .input-wrapper, button {
       display: none;

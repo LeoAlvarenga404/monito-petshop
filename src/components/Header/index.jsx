@@ -11,14 +11,14 @@ export function Header() {
       <LogoMonito/>
       <nav>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Category</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Category</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
       <div className="input-wrapper">
-        <MagnifyingGlass size={24}/>
+        <MagnifyingGlass size={24} fill='#5a5f64'/>
         <input type="text" placeholder="Search something here!" />
       </div>
       <Button content='Login'/>
